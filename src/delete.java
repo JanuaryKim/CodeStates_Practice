@@ -2,10 +2,23 @@ import java.util.ArrayList;
 
 public class delete {
     public static void main(String[] args) {
-        GenericClass3.genericMethod(1);
+        ArrayList<Integer> arrayList = new ArrayList<>();
+        arrayList.add(9);
+        arrayList.add(9);
+        arrayList.add(9);
+        arrayList.add(9);
+        arrayList.add(9);
+        arrayList.set(0,18);
 
+        System.out.println("dd");
     }
 }
+
+
+
+
+
+
 
 
 class GenericClass {
@@ -39,43 +52,4 @@ class GenericClass3 {
 
 
 
-
-
-
-//class Tree{
-//
-//
-//}
-
-
-//class MelonTree extends Tree {
-//    public static void peekBox(Forest<Object> box) {
-//    }
-//
-//
-//}
-//class AppleTree extends Tree{
-//    public static <T> void peekBox(Forest<T> box) {
-//    }
-//}
-
-//class Forest <T> {
-//    ArrayList<T> list;
-//
-//
-//    public Forest() {
-//        this.list = new ArrayList<>();
-//    }
-//
-//    void add (T tree) {
-//
-//        list.add(tree);
-//    }
-//
-//    <M extends String> void genericMethod(M data) {
-//
-//        System.out.println(data.getClass().getName());
-//
-//    }
-//}
 

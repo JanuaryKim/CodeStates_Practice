@@ -11,6 +11,15 @@ package subPractice;
  */
 
 
+
+
+
+
+
+
+
+
+
 public class InterfacePractice {
     public static void main(String[] args) {
         Song[] songs = new Song[]{new Song("romantico"), new Song("빨간맛")};
