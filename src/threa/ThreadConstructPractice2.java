@@ -10,9 +10,10 @@ public class ThreadConstructPractice2 {
         {
             System.out.print("M");
         }
+
+        System.out.println();
     }
 }
-
 
 class ThreadClass2 extends Thread {
 
@@ -22,5 +23,7 @@ class ThreadClass2 extends Thread {
         {
             System.out.print("T");
         }
+
+        System.out.println("현재 작업중인 쓰레드 이름 : " + getName());
     }
 }

@@ -1,5 +1,7 @@
 package threa;
 
+import org.w3c.dom.ls.LSOutput;
+
 public class ThreadConstructPractice {
     public static void main(String[] args) {
 
@@ -24,5 +26,8 @@ class ThreadClass1 implements Runnable {
         {
             System.out.print("T");
         }
+
+        System.out.println("현재 작업중인 쓰레드 이름 : " + Thread.currentThread().getName());
     }
+
 }
